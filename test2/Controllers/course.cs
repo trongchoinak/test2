@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using test2.Models;
 using test2.Services;
-
 namespace test2.Controllers
 {
-    public class test2 : Controller
-    {
         [ApiController]
         [Route("api/[controller]")]
         public class AuthorController : ControllerBase
@@ -90,4 +87,3 @@ namespace test2.Controllers
             }
         }
     }
-}
