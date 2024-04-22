@@ -38,7 +38,7 @@ namespace REST_API_TEMPLATE.Controllers
             var response = new
             {
                 TotalRecords = totalRecords,
-                PageSize = pageSize,
+                PageSize = pageSize, 
                 CurrentPage = page,
                 Students = paginatedStudents
             };
